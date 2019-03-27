@@ -204,6 +204,10 @@ a {
   a:visited {
     color: #1e63af; }
 
+h3 a,
+h3 a:visited {
+  color: #1e63af; }
+
 span.invisible-previewline {
   display: none !important;
   visibility: hidden;
@@ -369,6 +373,11 @@ table.button table td {
   margin: 0 0 5px 0;
   padding: 0; }
 
+h3 {
+  color: #1e63af;
+  text-align: center;
+  font-size: 24px; }
+
 .call-out-box {
   background: #1e63af; }
 
@@ -383,6 +392,10 @@ table.button table td {
   color: #ffffff;
   text-align: center;
   font-size: 18px; }
+
+.call-out-box a {
+  color: #ffffff;
+  text-decoration: underline; }
 
 table.button.dark-button:hover table tr td a,
 table.button.dark-button:active table tr td a,
